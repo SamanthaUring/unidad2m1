@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>3 cuadrados para cambiar el color de fondo</title>
+	<style>
+		.square {
+			width: 100px;
+			height: 100px;
+			display: inline-block;
+			margin-right: 10px;
+			cursor: pointer;
+		}
+
+		#square1 {
+			background-color: red;
+		}
+
+		#square2 {
+			background-color: blue;
+		}
+
+		#square3 {
+			background-color: green;
+		}
+	</style>
+</head>
+<body>
+	<div id="square1" class="square" onclick="document.body.style.backgroundColor='red'"></div>
+	<div id="square2" class="square" onclick="document.body.style.backgroundColor='blue'"></div>
+	<div id="square3" class="square" onclick="document.body.style.backgroundColor='green'"></div>
+</body>
+</html>
